@@ -1,0 +1,141 @@
+
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trustees Medical Center | Home</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <h2 class="logo">Trustees Medical Center</h2>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-text">
+        <h1>Your Health, Our Priority</h1>
+        <p>Quality healthcare services delivered with compassion and professionalism.</p>
+        <a href="contact.html" class="btn">Book Appointment</a>
+    </div>
+</section>
+<section class="content-section">
+    <h1>About Trustees Medical Center</h1>
+    <p>
+        Trustees Medical Center is committed to providing world‑class healthcare services.
+        Our team of experienced doctors, nurses, and specialists work tirelessly to ensure
+        every patient receives personalized and compassionate care.
+    </p>
+</section>
+<section class="content-section">
+    <h1>Medical Service Categories</h1>
+    <ul class="category-list">
+        <li>General Consultation</li>
+        <li>Pediatrics</li>
+        <li>Dental Care</li>
+        <li>Laboratory Services</li>
+        <li>Maternity & Antenatal Care</li>
+        <li>Pharmacy</li>
+    </ul>
+</section>
+
+<section class="content-section">
+    <h1>Pricing</h1>
+    <table class="pricing-table">
+        <tr><th>Service</th><th>Price (UGX)</th></tr>
+        <tr><td>General Consultation</td><td>20,000</td></tr>
+        <tr><td>Dental Cleaning</td><td>50,000</td></tr>
+        <tr><td>Lab Tests</td><td>30,000 - 150,000</td></tr>
+        <tr><td>Maternity Package</td><td>500,000</td></tr>
+    </table>
+</section>
+
+<section class="content-section">
+    <h1>Contact Us</h1>
+    <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</section>
+
+
+<section class="content-section">
+    <h1>Book an Appointment</h1>
+
+    <form id="appointmentForm" class="appointment-form">
+        <input type="text" id="name" placeholder="Full Name" required>
+        <input type="text" id="phone" placeholder="Phone Number" required>
+        
+        <select id="department" required>
+            <option value="">Select Department</option>
+            <option>General Consultation</option>
+            <option>Pediatrics</option>
+            <option>Dental Care</option>
+            <option>Laboratory</option>
+            <option>Maternity</option>
+        </select>
+
+        <select id="doctor" required>
+            <option value="">Select Doctor</option>
+            <option>Dr. Sarah N.</option>
+            <option>Dr. James K.</option>
+            <option>Dr. Maria T.</option>
+            <option>Dr. Brian O.</option>
+        </select>
+
+        <input type="date" id="date" required>
+
+<section class="content-section">
+    <h1>Book an Appointment</h1>
+
+    <form id="appointmentForm" class="appointment-form">
+        <input type="text" id="name" placeholder="Full Name" required>
+        <input type="text" id="phone" placeholder="Phone Number" required>
+        
+        <select id="department" required>
+            <option value="">Select Department</option>
+            <option>General Consultation</option>
+            <option>Pediatrics</option>
+            <option>Dental Care</option>
+            <option>Laboratory</option>
+            <option>Maternity</option>
+        </select>
+
+        <select id="doctor" required>
+            <option value="">Select Doctor</option>
+            <option>Dr. Sarah N.</option>
+            <option>Dr. James K.</option>
+            <option>Dr. Maria T.</option>
+            <option>Dr. Brian O.</option>
+        </select>
+
+        <input type="date" id="date" required>
+        <input type="time" id="time" required>
+
+        <button type="submit" class="btn">Submit Appointment</button>
+    </form>
+
+    <p id="successMessage" class="success-message"></p>
+</section>
+
+<footer>
+    <p>© 2025 Trustees Medical Center. All Rights Reserved.</p>
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>
+        
